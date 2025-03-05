@@ -1,6 +1,5 @@
 import type { Config } from 'tailwindcss';
 import tailwindcssAnimate from 'tailwindcss-animate';
-import defaultTheme from 'tailwindcss/defaultTheme';
 
 const config: Config = {
   content: [
@@ -15,7 +14,6 @@ const config: Config = {
         foreground: 'var(--foreground)',
       },
       fontFamily: {
-        notosans: ['var(--font-noto-sans-kr)', ...defaultTheme.fontFamily.sans],
       },
     },
   },
