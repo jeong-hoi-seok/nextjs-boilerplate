@@ -23,7 +23,7 @@ if ! yarn eslint:check; then
 fi
 
 # lint-staged 실행
-if ! npx lint-staged; then
+if ! yarn lint-staged; then
     echo '❌ lint-staged 실행 실패'
     exit 1
 fi
