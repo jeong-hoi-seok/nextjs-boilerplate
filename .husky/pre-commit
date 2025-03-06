@@ -7,12 +7,10 @@ echo '코드를 커밋하기 전에 컨벤션을 확인하고 있습니다.'
 # Prettier 검사
 echo "코드 스타일을 검사합니다."
 if ! yarn prettier:check; then
-    echo '코드 스타일에 문제가 발견되어 prettier format을 실행합니다.'
-    yarn prettier:format
-    git add .
-    echo '코드 스타일이 수정되었습니다.'
-    git commit --amend --no-edit
-    echo '커밋이 성공적으로 수정되었습니다.'
+    echo '❌ 코드 스타일에 문제가 발견되었습니다. 커밋 전에 다음 명령을 실행하세요:'
+    echo 'yarn prettier:format'
+    echo '그 후 변경사항을 다시 스테이징하고 커밋을 시도하세요.'
+    exit 1
 fi
 
 # ESLint 검사

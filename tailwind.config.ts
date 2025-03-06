@@ -13,8 +13,7 @@ const config: Config = {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
       },
-      fontFamily: {
-      },
+      fontFamily: {},
     },
   },
   plugins: [tailwindcssAnimate],
