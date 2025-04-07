@@ -33,7 +33,7 @@
     "react-dom": "^18",
     "tailwind-merge": "^2",
     "tailwindcss-animate": "^1.0.7",
-    "zustand": "^4"
+    "next-intl": "^3.26.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",

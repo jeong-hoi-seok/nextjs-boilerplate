@@ -1,0 +1,9 @@
+{
+  "metadata": {
+    "title": "NextJs Boilerplate",
+    "description": "nextjs Boilerplate setting"
+  },
+  "common": {
+    "안녕": "Hello"
+  }
+}
