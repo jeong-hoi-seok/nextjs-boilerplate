@@ -1,0 +1,10 @@
+---
+description: Zustand를 전역 상태 관리에 사용하고, Context는 중간 수준의 트리 전체 공유에만 사용. 상태는 먼저 끌어올리기를 고려.
+alwaysApply: true
+---
+
+Global state: Zustand
+
+Lift state up before introducing context.
+
+Use React Context for intermediate, tree‑wide sharing.

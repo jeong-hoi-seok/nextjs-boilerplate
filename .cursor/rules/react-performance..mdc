@@ -1,0 +1,17 @@
+---
+description: React 성능 최적화: 클라이언트 전용 코드 최소화, 동적 import, 이미지 최적화, useMemo/React.memo 활용, tree-shaking 고려.
+globs: ['**/*.tsx', '**/*.jsx']
+alwaysApply: true
+---
+
+Minimize client‑only code (useEffect/useState) where unnecessary.
+
+Dynamically import non‑critical components.
+
+Optimize images (WebP, width/height, lazy-loading).
+
+Memoize expensive computations with useMemo.
+
+Wrap pure components in React.memo.
+
+Structure modules for effective tree‑shaking.

@@ -1,0 +1,15 @@
+---
+description: 간결하고 기술적인 TypeScript 작성. 함수형/선언적 패턴 사용, 클래스 피하기. 중복 코드보다 루프와 헬퍼 모듈 선호. 보조 동사가 있는 설명적인 이름 사용.
+globs: ['**/*.ts', '**/*.tsx']
+alwaysApply: true
+---
+
+Write concise, technical TypeScript.
+
+Use functional, declarative patterns; avoid classes.
+
+Favor loops and small helper modules over duplicate code.
+
+Use descriptive names with auxiliary verbs (e.g. isLoading, hasError).
+
+File layout: exported component → subcomponents → hooks/helpers → static content.

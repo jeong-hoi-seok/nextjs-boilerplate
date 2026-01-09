@@ -1,0 +1,13 @@
+---
+description: 입력과 전제조건을 조기에 검증. 명확하고 사용자 친화적인 에러 메시지 제공. 예상치 못한 에러는 로그/리포트.
+globs: false
+alwaysApply: true
+---
+
+Validate inputs and preconditions early (guard clauses).
+
+Place happy-path logic last.
+
+Provide clear, user‑friendly error messages.
+
+Log or report unexpected errors.

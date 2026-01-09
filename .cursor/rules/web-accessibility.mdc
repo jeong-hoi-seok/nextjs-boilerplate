@@ -1,0 +1,10 @@
+---
+description: 웹 접근성(a11y) 표준 및 시맨틱 마크업 작성 규칙
+alwaysApply: true
+---
+
+Use semantic HTML.
+
+Apply appropriate ARIA attributes.
+
+Ensure full keyboard navigation.
