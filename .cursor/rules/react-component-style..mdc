@@ -1,0 +1,27 @@
+---
+description: React 컴포넌트는 const arrow function으로 작성. Props는 interface/type으로 정의하고 단일 props 객체로 받아 내부에서 destructure. 반환 타입 명시. Standard.js 포맷팅 준수.
+globs: ['**/*.tsx']
+alwaysApply: true
+---
+
+- Define props with `interface`/`type` (e.g. `ButtonProps`). Do not use `prop-types`.
+- Components must be exported as `const` arrow functions.
+- Component parameter must be a single `props` object: `(props: ButtonProps)` (do not destructure in the parameter list).
+- Destructure props inside the component body: `const { ... } = props`
+- Explicitly type the component return value (`: JSX.Element`).
+- Follow Standard.js formatting: 2-space indentation, single quotes, no semicolons.
+
+Example:
+
+```ts
+interface ButtonProps {
+  label: string
+  onClick?: () => void
+}
+
+export const Button = (props: ButtonProps): JSX.Element => {
+  const { label, onClick } = props
+
+  return <button onClick={onClick}>{label}</button>
+}
+```

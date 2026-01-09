@@ -1,0 +1,19 @@
+---
+description: 디렉토리는 소문자+대시, 컴포넌트는 .tsx, 훅/유틸은 .ts, 스타일은 .module.css. 컴포넌트는 named export, 타입/인터페이스는 PascalCase.
+globs: false
+alwaysApply: true
+---
+
+Directories: lowercase with dashes (e.g. components/auth-wizard)
+
+File extensions:
+
+Components → .tsx
+
+Hooks/Utils → .ts
+
+Style modules → .module.css
+
+Prefer named exports for components
+
+Types/Interfaces in PascalCase (e.g. User, ButtonProps)
